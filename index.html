@@ -91,7 +91,21 @@
     </section>
   
     <section id="projects">
-        <h2>Technical Projects</h2>
+        <h2>Projects</h2>
+           
+        <div class="item">
+            <div class="item-title">Computationally Efcient Decomposition of LTV MIMO Channels</div>
+            <p>Eigen-decomposition is widely used in various aspects of communication systems. 
+              However, the linear algebraic methods available for such decomposition are computationally expensive.
+              Alternate Mercer’s theorem-based machine learning solutions are only capable of decomposing symmetric kernels.
+              However, in communication systems, the channel kernels are not always symmetric. 
+              The high-order generalized Mercer’s theorem (HOGMT) is a standard method for the decomposition of asymmetric kernels. 
+              Based on HOGMT, we propose a neural network (NN) framework to decompose asymmetric kernels into jointly orthogonal eigenfunctions. 
+              This is further improved by applying the augmented Lagrangian method (ALM) to explicitly ensure the required orthogonality constraints. 
+              The parameter-free nature of the ALM reduces the training time by avoiding tedious parameter-tuning processes, 
+              particularly when the required number of eigen-components changes depending on the wireless environment.</p>
+        </div>
+      
         <div class="item">
             <div class="item-title">CHRONOS: Hardware Implementation</div>
             <p>The objective of the Cloud-based Hybrid RF-Optical Network Over Synchronization (CHRONOS) project is to design a 
@@ -108,14 +122,17 @@
               </video>
             </div>
         </div>
+    
         <div class="item">
             <div class="item-title">Machine Learning Inference in FPGAs</div>
             <p>Evaluated Xilinx tools (PYNQ, Vitis) and implemented optimized neural network topologies on ZYNQ 7010 SoC</p>
         </div>
+      
         <div class="item">
             <div class="item-title">SoC Based Scanner Development</div>
             <p>Developed custom AXI compatible IPs, Linux device drivers, and high-speed data processing filters</p>
         </div>
+      
         <div class="item">
             <div class="item-title">Design & Implementation of a Non-linear Dynamics Based Controller for a 5 DOF Robot</div>
             <p>In this project, a dynamics-based state-feedback non-linear controller was 

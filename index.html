@@ -1,10 +1,120 @@
-<html>
+<!--<html>
 
 <body>
   <h1>Iresha Amaraskera</h1>
   <p>Welcome to my website!</p>
-  <!-- <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />-->
+   <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
 </body>
 
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iresha Amarasekara | Technical Researcher</title>
+    <style>
+        :root { --primary: #2c3e50; --secondary: #34495e; --accent: #3498db; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); margin: 0; padding: 0; }
+        header { background: var(--primary); color: white; padding: 2rem 1rem; text-align: center; }
+        nav { background: var(--secondary); color: white; padding: 0.5rem; text-align: center; position: sticky; top: 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        section { margin-bottom: 40px; }
+        h2 { border-bottom: 2px solid var(--accent); padding-bottom: 5px; color: var(--primary); }
+        .item { margin-bottom: 20px; }
+        .item-title { font-weight: bold; font-size: 1.1rem; }
+        .item-sub { color: #666; font-style: italic; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .skill-cat { font-weight: bold; color: var(--accent); }
+        footer { background: var(--primary); color: white; text-align: center; padding: 1rem; position: relative; bottom: 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Iresha Amarasekara</h1>
+    <p>PhD Student in Electrical and Computer Engineering</p>
+    <p>Deep Learning | Wireless Communication | Hardware-Software Co-Design</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>Research Interests</h2>
+        <p>Technical researcher focused on the intersection of deep learning and wireless systems, including hardware-efficient AI implementations and advanced signal processing[cite: 5, 7].</p>
+        <p><strong>Contact:</strong> iamarasekara@albany.edu | Albany, NY [cite: 4, 96]</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="item">
+            <div class="item-title">PhD in Electrical and Computer Engineering</div>
+            <div class="item-sub">University at Albany, SUNY | 2022 – Present [cite: 6, 9]</div>
+            <p>Current GPA: 3.94/4.00. Focus: Deep learning for Wireless Communication[cite: 7].</p>
+        </div>
+        <div class="item">
+            <div class="item-title">B.Sc. (Eng.) in Electrical and Electronic Engineering</div>
+            <div class="item-sub">University of Peradeniya, Sri Lanka [cite: 8, 11]</div>
+            <p>Final Year GPA: 3.85/4.00. Research: Nonlinear Dynamic Controllers for Robotics[cite: 12, 13].</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="item">
+            <div class="item-title">Graduate Research Assistant</div>
+            <div class="item-sub">University at Albany, SUNY | 2022 – Present [cite: 18, 19, 29]</div>
+        </div>
+        <div class="item">
+            <div class="item-title">Associate Tech Lead / Senior Electronics Engineer</div>
+            <div class="item-sub">Zone 24x7 Pvt Ltd | 2019 – 2022 [cite: 20, 22, 30, 31]</div>
+            <p>Led engineering teams and projects, receiving nominations for Best Mentor and Best Managed Project[cite: 35].</p>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Selected Publications</h2>
+        <ul>
+            <li>"Learning to Decompose Asymmetric Channel Kernels for Generalized Eigenwave Multiplexing," IEEE INFOCOM 2024[cite: 38, 39].</li>
+            <li>"Adaptive Neural Network for Deconstructing Multi-dimensional Channel Kernels," IEEE VTC 2024 (Under Review)[cite: 37].</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Technical Projects</h2>
+        <div class="item">
+            <div class="item-title">Machine Learning Inference in FPGAs</div>
+            <p>Evaluated Xilinx tools (PYNQ, Vitis) and implemented optimized neural network topologies on ZYNQ 7010 SoC[cite: 52, 55].</p>
+        </div>
+        <div class="item">
+            <div class="item-title">SoC Based Cheque Scanner Development</div>
+            <p>Developed custom AXI compatible IPs, Linux device drivers, and high-speed data processing filters[cite: 56, 58, 61].</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div><span class="skill-cat">Languages:</span> VHDL, Verilog, MATLAB, C++, Python, C#[cite: 85].</div>
+            <div><span class="skill-cat">Tools:</span> Simulink, Vivado, PYNQ, Vitis, Altium, Eagle[cite: 55, 86, 88].</div>
+            <div><span class="skill-cat">Software:</span> Linux (Yocto/Bitbake), RTOS, LaTeX[cite: 59, 71, 84].</div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Iresha Amarasekara. Built with GitHub Pages.</p>
+</footer>
+
+</body>
 </html>
 
